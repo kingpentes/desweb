@@ -1,12 +1,13 @@
 <script setup>
+    import { Shield, Lock, Eye, Users } from '@/config/icons'
     import ImageWithFallback from './ImageWithFallback.vue';
     import Navbar from './Navbar.vue';
     import Footer from './Footer.vue';
     import SectionCard from './ui/SectionCard.vue';
 const skills = [
-    { id: 1, title: 'Manusia', description: 'hanya manusia biasa'},
-    { id: 2, title: 'ngoding', description: 'seorang manusia coding' },
-    { id: 3, title: 'Pembelajar', description: 'Selalu ingin belajar hal baru' }
+    { id: 1, title: 'Manusia', description: 'hanya manusia biasa', icon: Users},
+    { id: 2, title: 'ngoding', description: 'seorang manusia coding', icon: Lock},
+    { id: 3, title: 'Pembelajar', description: 'Selalu ingin belajar hal baru', icon: Eye }
 ]
 </script>
 
@@ -52,6 +53,7 @@ const skills = [
         title="Kemampuan yang saya punya" 
         :items="skills"
         columns="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+        showIcon
     />
     <Footer/>
     </div>

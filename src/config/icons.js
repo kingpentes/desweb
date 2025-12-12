@@ -1,5 +1,3 @@
-// Export all icons used in the application
-// This centralizes icon imports and makes it easier to manage
 
 export { 
   Shield, 
