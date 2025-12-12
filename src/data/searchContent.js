@@ -1,0 +1,92 @@
+export const searchableContent = [
+  // Learning Materials
+  {
+    id: 1,
+    slug: 'cybersecurity-basics',
+    title: 'Cybersecurity Basics',
+    description: 'Panduan lengkap untuk pemula yang ingin memahami dasar-dasar keamanan siber',
+    category: 'article',
+    type: 'Materi Belajar',
+    tags: ['dasar', 'pemula', 'keamanan', 'siber', 'basics'],
+  },
+  {
+    id: 2,
+    slug: 'password-management',
+    title: 'Password Management Guide',
+    description: 'Cara mengelola password dengan aman dan efektif menggunakan password manager',
+    category: 'guide',
+    type: 'Materi Belajar',
+    tags: ['password', 'keamanan', 'pengelolaan', 'manager'],
+  },
+  {
+    id: 3,
+    slug: 'phishing-detection',
+    title: 'Phishing Detection Workshop',
+    description: 'Panduan interaktif untuk melatih kemampuan mendeteksi email dan website phishing',
+    category: 'guide',
+    type: 'Materi Belajar',
+    tags: ['phishing', 'deteksi', 'email', 'penipuan'],
+  },
+  {
+    id: 4,
+    slug: 'mobile-security',
+    title: 'Mobile Security Checklist',
+    description: 'Daftar periksa lengkap untuk mengamankan smartphone Android dan iOS',
+    category: 'guide',
+    type: 'Materi Belajar',
+    tags: ['mobile', 'smartphone', 'android', 'ios', 'keamanan'],
+  },
+  // News Articles
+  {
+    id: 5,
+    slug: 'tren-kejahatan-siber-2025',
+    title: 'Tren Kejahatan Siber 2025',
+    description: 'Analisis mendalam tentang ancaman siber terbaru dan prediksi ke depan',
+    category: 'article',
+    type: 'Berita',
+    tags: ['tren', 'kejahatan', 'siber', '2025', 'ancaman'],
+  },
+  {
+    id: 6,
+    slug: 'kebijakan-perlindungan-data',
+    title: 'Kebijakan Perlindungan Data di Indonesia',
+    description: 'Update terbaru tentang regulasi dan undang-undang perlindungan data pribadi',
+    category: 'article',
+    type: 'Berita',
+    tags: ['kebijakan', 'data', 'privasi', 'regulasi', 'indonesia'],
+  },
+  {
+    id: 7,
+    slug: 'ransomware-sektor-pendidikan',
+    title: 'Kasus Ransomware di Sektor Pendidikan',
+    description: 'Studi kasus serangan ransomware dan cara pencegahannya',
+    category: 'article',
+    type: 'Berita',
+    tags: ['ransomware', 'pendidikan', 'serangan', 'kasus'],
+  },
+  // Page references
+  {
+    id: 8,
+    title: 'Ancaman Siber',
+    description: 'Pelajari berbagai jenis ancaman siber seperti phishing, malware, dan ransomware',
+    category: 'guide',
+    type: 'Halaman',
+    tags: ['ancaman', 'phishing', 'malware', 'ransomware', 'social engineering'],
+    page: 'Threats',
+  },
+  {
+    id: 9,
+    title: 'Tips Keamanan',
+    description: 'Kumpulan tips praktis untuk melindungi diri dari ancaman siber sehari-hari',
+    category: 'guide',
+    type: 'Halaman',
+    tags: ['tips', 'keamanan', 'praktis', 'perlindungan'],
+    page: 'Tips',
+  },
+]
+
+export const searchCategories = [
+  { value: 'all', label: 'Semua' },
+  { value: 'article', label: 'Artikel' },
+  { value: 'guide', label: 'Panduan' },
+]
