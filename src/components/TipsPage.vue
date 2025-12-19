@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './ui'
 import ImageWithFallback from './ImageWithFallback.vue';
 import Navbar from './Navbar.vue';
 import Footer from './Footer.vue';
-import Button from './ui/Button.vue';
+import Button from './ui/button.vue';
 
 const openFaqIndex = ref(null);
 
