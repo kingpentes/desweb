@@ -7,7 +7,7 @@ import ResourcesPage from '../components/ResourcesPage.vue'
 import SearchPage from '../components/SearchPage.vue'
 import MaterialDetailPage from '../components/MaterialDetailPage.vue'
 import ArticleDetailPage from '../components/ArticleDetailPage.vue'
-import mePage from '../components/mePage.vue'
+import MePage from '../components/MePage.vue'
 
 const routes = [
     {
@@ -54,7 +54,7 @@ const routes = [
     {
         path: '/me',
         name: 'TentangSaya',
-        component: mePage
+        component: MePage
     }
 
 ]

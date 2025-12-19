@@ -93,7 +93,7 @@ export function useExternalRedirect() {
 
   const goToInstagram = () => {
     redirectWithConfirm(
-      'https://www.instagram.com/cybersafe.id/',
+      'https://www.instagram.com/razit27/',
       'Anda akan diarahkan ke halaman Instagram CyberSafe. Lanjutkan?'
     )
   }

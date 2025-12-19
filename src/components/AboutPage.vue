@@ -160,7 +160,7 @@ const missionsWithIcons = [
 							</div>
 							<div>
 								<h4>Email</h4>
-								<p class="text-muted-foreground">info@cybersafe.id</p>
+								<p class="text-muted-foreground">kingkriuk32@gmail.com</p>
 							</div>
 						</div>
 						<div class="flex flex-col items-center text-center gap-3">
@@ -178,7 +178,7 @@ const missionsWithIcons = [
 							</div>
 							<div>
 								<h4>Lokasi</h4>
-								<p class="text-muted-foreground">Jakarta, Indonesia</p>
+								<p class="text-muted-foreground">Samarinda, Indonesia</p>
 							</div>
 						</div>
 					</div>
